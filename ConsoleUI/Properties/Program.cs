@@ -100,7 +100,7 @@ namespace ConsoleUI
         //adding guests to raffle
         private static void AddGuestsInRaffle(int raffleNumber, string guest)
         {
-            guest.Add(raffleNumber, guest);
+            guest.Add (raffleNumber, guest);
         }
 
 
